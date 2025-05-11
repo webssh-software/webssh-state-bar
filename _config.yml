@@ -13,9 +13,9 @@ timezone: UTC
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: WebSSH
+title: State Bar Hub
 
-tagline: State Bar Hub
+tagline: For WebSSH
 
 description: A customizable and near real-time State Bar for WebSSH – display connection info, session metrics, and system insights. Designed for geeks, tinkerers, and all computing enthusiasts who love a smarter terminal experience ✨
 
