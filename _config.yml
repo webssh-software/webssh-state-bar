@@ -15,7 +15,7 @@ timezone: Europe/Paris
 
 title: State Bar Hub
 
-tagline: For WebSSH
+tagline: Designed for <a href="https://webssh.net">WebSSH</a>
 
 description: A customizable and near real-time State Bar for WebSSH – display connection info, session metrics, and system insights. Designed for geeks, tinkerers, and all computing enthusiasts who love a smarter terminal experience ✨
 
@@ -86,7 +86,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/webssh-state-bar.png
+avatar: /assets/img/webssh-state-bar-dots.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
