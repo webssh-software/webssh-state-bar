@@ -21,7 +21,7 @@ description: A customizable and near real-time State Bar for WebSSH – display 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://statebarhub.webssh.net"
 
 github:
   username: webssh-software
