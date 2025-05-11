@@ -1,0 +1,11 @@
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: This content is licensed under :LICENSE_NAME by the author.
+    name: MIT
+    link: https://github.com/webssh-software/webssh-state-bar/blob/main/LICENSE
+
+  # Displayed in the footer
+  brief: Some rights reserved.
+  verbose: >-
+    Except where otherwise noted, the contents on this site are licensed under the MIT License by the author.

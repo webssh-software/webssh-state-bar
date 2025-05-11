@@ -24,10 +24,10 @@ description: A customizable and near real-time State Bar for WebSSH – display 
 url: "https://statebarhub.webssh.net"
 
 github:
-  username: webssh-software
+  username: webssh-software/webssh-state-bar
 
 social:
-  name: WebSSH
+  name: WebSSH Software
   email: team@webssh.net
   links:
     - https://github.com/webssh-software
