@@ -3,6 +3,8 @@ layout: post
 ---
 
 {% capture script_layout %}
+<kbd><a href="websshstatebar-import://raw.githubusercontent.com/webssh-software/webssh-state-bar/refs/heads/main/{{ page.path }}">Import to WebSSH</a></kbd>
+
 ## JavaScript Content
 ```javascript
 {{ page.script }}
