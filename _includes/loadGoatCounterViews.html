@@ -1,0 +1,34 @@
+<script type="text/javascript">
+  function loadGoatCounterViews() {
+    const pv = document.getElementById('pageviews');
+    if (pv !== null) {
+      const uri = location.pathname.replace(/\/$/, '');
+      const url = `https://{{ site.analytics.goatcounter.id }}.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const count = data.count.replace(/\s/g, '');
+          pv.innerText = new Intl.NumberFormat().format(count);
+        })
+        .catch((error) => {
+          pv.innerText = '1';
+        });
+    }
+  }
+
+  (() => {
+    function onDomReady(callback) {
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', callback);
+      } else {
+        // DOMContentLoaded already fired
+        callback();
+      }
+    }
+
+    onDomReady(() => {
+      loadGoatCounterViews();
+    });
+  })();
+</script>
