@@ -5,3 +5,9 @@ A customizable and near real-time State Bar for WebSSH – display connection in
 ```bash
 ./tools/test.sh && ./tools/run.sh
 ```
+
+## Supporting the Project
+If you like the project, please consider supporting it by baking it on [GitHub Sponsors](https://github.com/sponsors/dRAGon-Okinawa) or [Open Collective](https://opencollective.com/dragon-okinawa). Your support helps us maintain and improve the project, and we truly appreciate it! 🙏
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. All contributions are made under the same license.
