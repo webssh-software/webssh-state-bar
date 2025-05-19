@@ -1,3 +1,5 @@
+[![Build WebSSH State Bar Hub Project](https://github.com/webssh-software/webssh-state-bar/actions/workflows/pages-deploy.yml/badge.svg?branch=main)](https://github.com/webssh-software/webssh-state-bar/actions)
+
 # webssh-state-bar
 A customizable and near real-time State Bar for WebSSH – display connection info, session metrics, and system insights. Designed for geeks, tinkerers, and all computing enthusiasts who love a smarter terminal experience ✨
 
