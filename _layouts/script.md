@@ -27,7 +27,7 @@ layout: post
 - [{% if targets_string contains target %}x{% else %} {% endif %}] {{ target }}
 {% endfor %}
 
-{% assign capability_levels = "ssh_exec:warning,vars_get:safe,vars_set:safe" | split: "," %}
+{% assign capability_levels = "ssh_exec:warning,ssh_isConnected:safe,vars_get:safe,vars_set:safe" | split: "," %}
 <h3>Needed Capabilities</h3>
 You will find the needed capabilities for this script to run in the table below. When a capability is not marked as "safe", it means that the script may run in a way that could be unsafe for your system. If level is NOT above "Warning" (eg. "Dangerous"), it may be considered as "acceptable" because it SEEMS to be safe, but it is NOT guaranteed. Please read the script carefully BEFORE running it.
 <table>
