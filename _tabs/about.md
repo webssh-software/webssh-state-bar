@@ -12,4 +12,4 @@ If you want to contribute, please make a pull request to the [GitHub repository]
 
 | Symbol | Description                                              |
 | ------ | -------------------------------------------------------- |
-| 👑      | Indicates a State Bar Item maintained by the WebSSH Team |
+| ⚑      | Indicates a State Bar Item maintained by the WebSSH Team |
