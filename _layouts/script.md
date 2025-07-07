@@ -29,7 +29,10 @@ layout: post
 
 {% assign capability_levels = "ssh_exec:warning,ssh_isConnected:safe,vars_get:safe,vars_set:safe" | split: "," %}
 <h3>Needed Capabilities</h3>
-You will find the needed capabilities for this script to run in the table below. When a capability is not marked as "safe", it means that the script may run in a way that could be unsafe for your system. If level is NOT above "Warning" (eg. "Dangerous"), it may be considered as "acceptable" because it SEEMS to be safe, but it is NOT guaranteed. Please read the script carefully BEFORE running it.
+The table below lists the capabilities required for this script to operate.
+Capabilities marked as “Safe” are generally considered secure.
+Capabilities with a “Warning” level indicate that, while they are typically acceptable, their safety cannot be fully guaranteed in all scenarios.
+For your peace of mind, we recommend reviewing the script before running it.
 <table>
   <thead>
     <tr>
