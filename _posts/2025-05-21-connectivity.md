@@ -32,7 +32,7 @@ script: |
   (function() {
     let icon = $ssh.isConnected() ? 'cable.connector' : 'cable.connector.slash'
     return {
-        label: '',
+        label: $vars.get('WEBSSH_CONNECTION_NAME'),
         icon
     } 
   })();
