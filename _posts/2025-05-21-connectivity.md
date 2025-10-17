@@ -28,6 +28,7 @@ compatibility:
   macOS: ">=26.0"
 capabilities:
   - ssh_isConnected
+  - vars_get
 script: |
   (function() {
     let icon = $ssh.isConnected() ? 'cable.connector' : 'cable.connector.slash'

@@ -27,7 +27,7 @@ layout: post
 - [{% if targets_string contains target %}x{% else %} {% endif %}] {{ target }}
 {% endfor %}
 
-{% assign capability_levels = "ssh_exec:warning,ssh_isConnected:safe,vars_get:safe,vars_set:safe" | split: "," %}
+{% assign capability_levels = "ssh_exec:warning,ssh_isConnected:safe,vars_get:safe,vars_set:safe,terminal_get:safe" | split: "," %}
 <h3>Needed Capabilities</h3>
 The table below lists the capabilities required for this script to operate.
 Capabilities marked as “Safe” are generally considered secure.
