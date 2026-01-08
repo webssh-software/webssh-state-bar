@@ -1,7 +1,7 @@
 ---
 # -- Main Metadata --
 layout: script
-title: Connectivity ⚑
+title: Connectivity
 description: |
   Shows an icon based on the status of the SSH connection.
 date: 2025-09-03

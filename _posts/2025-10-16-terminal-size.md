@@ -1,7 +1,7 @@
 ---
 # -- Main Metadata --
 layout: script
-title: Terminal Size ⚑
+title: Terminal Size
 description: |
   Shows the current terminal size (columns x rows) in the state bar.
 date: 2025-10-16
